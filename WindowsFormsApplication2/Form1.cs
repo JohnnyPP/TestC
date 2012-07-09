@@ -63,6 +63,11 @@ namespace WindowsFormsApplication2
             // new point
 
             chart1.Series[1].Points.AddXY(2012, 17);  
+
+            //added new point on 120710
+            chart1.Series[1].Points.AddXY(2014,20);  
+
+
         }
     }
 }
